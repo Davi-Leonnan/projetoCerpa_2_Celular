@@ -1,0 +1,133 @@
+* {
+    --cor-primaira: #C41E26;
+    --cor-secundaria: #D4AF37;
+    --cor-terciaria: #403B3B;
+    --cor-quartenaria: #E0B52A;
+    --cor-quintenaria: #0D0D0D;
+
+    box-sizing: border-box;
+}
+
+
+#cabecalho_inicial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    position: relative;
+   
+    
+    
+}
+
+#logo_cerpa {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    position: relative;
+    right: 10px;
+}
+
+#icones_cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75px;
+    height: 30px;
+    position: relative;
+    left: 120px;
+}
+
+#conteudo_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#secao_introdutoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    height: 100px;
+    width: 100%;
+}
+
+#texto_cerpa {
+    font-size: 30px;
+    color: var(--cor-terciaria);
+    text-align: left;
+}
+
+#botao_conheca_a_familia {
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-quintenaria);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+}
+
+#imagem_balde_de_cerveja {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+#secao_das_cervejas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("imagens/Retangulo Cinza.png");
+    margin-top: 50px;
+    height: 500px;
+}
+
+#descricao_cervejas {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    list-style-type: none;
+    position: relative;
+    top: 25px;
+}
+
+#nossos_tipos_de_cerveja {
+    color: var(--cor-quartenaria);
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    right: 20px;
+}
+
+#cerveja_malte {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    right: 20px;
+}
+
+#tipos_de_cerveja {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20px;
+    width: 50%;
+    margin-top: 80px;
+    
+}
+
+.tamaho_das_cervejas {
+    height: 200px;
+    position: relative;
+    right: 20px;
+}
+
+#pontinhos_amarelos {
+    width: 220px;
+    height: 10px;
+    margin-top: 150px;
+   
+}
