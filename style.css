@@ -120,8 +120,8 @@
 }
 
 .cervejas_posicao {
-    position: relative;
-    left: 2px;
+    position: absolute;
+    
 }
 
 .tamaho_das_cervejas {
