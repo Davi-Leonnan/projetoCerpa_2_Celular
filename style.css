@@ -119,6 +119,11 @@
     
 }
 
+.cervejas_posicao {
+    position: relative;
+    left: 2px;
+}
+
 .tamaho_das_cervejas {
     height: 200px;
     position: relative;
